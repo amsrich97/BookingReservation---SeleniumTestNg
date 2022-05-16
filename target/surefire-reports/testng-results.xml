@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Store Test" duration-ms="24332" started-at="2022-05-16T15:25:49 AEST" finished-at="2022-05-16T15:26:13 AEST">
+    <groups>
+    </groups>
+    <test name="Purchase test" duration-ms="24332" started-at="2022-05-16T15:25:49 AEST" finished-at="2022-05-16T15:26:13 AEST">
+      <class name="DjangoApp.DjangoLoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:DjangoApp.DjangoLoginTest@ed9d034]" name="setUp" is-config="true" duration-ms="3155" started-at="2022-05-16T15:25:49 AEST" finished-at="2022-05-16T15:25:52 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DjangoApp.DjangoLoginTest.hotelReservation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@15515c51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hotelReservation()[pri:0, instance:DjangoApp.DjangoLoginTest@ed9d034]" name="hotelReservation" duration-ms="20303" started-at="2022-05-16T15:25:52 AEST" finished-at="2022-05-16T15:26:13 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelReservation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DjangoApp.DjangoLoginTest@ed9d034]" name="tearDown" is-config="true" duration-ms="847" started-at="2022-05-16T15:26:13 AEST" finished-at="2022-05-16T15:26:13 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DjangoApp.DjangoLoginTest -->
+    </test> <!-- Purchase test -->
+  </suite> <!-- Store Test -->
+</testng-results>

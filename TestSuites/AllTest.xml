@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Store Test" >
+    <test verbose="2" preserve-order="true"
+          name="Purchase test" >
+        <parameter name="username" value="junu"></parameter>
+        <parameter name="password" value="qwerty"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="DjangoApp.DjangoLoginTest">
+                <methods>
+                    <include name="hotelReservation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
