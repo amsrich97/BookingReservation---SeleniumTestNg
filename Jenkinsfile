@@ -21,6 +21,7 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Deploying testng'
+        input(message: 'Do you want to deploy?', id: 'ok')
       }
     }
 
